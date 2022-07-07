@@ -185,7 +185,7 @@ body{
     padding: 10px 10px 10px 10px;
     border: 0;
 }
-#subscribe-input{
+#subscribe-button{
     background-color: rgb(168, 44, 44);
     padding: 10px 40px 10px 40px;
     color: white;
@@ -196,7 +196,8 @@ body{
 
 
 #footer{
-    background-color: rgb(255, 112, 112);
+    background-color: black;
+    color: white;
     font-family: 'Indie Flower', cursive;
     text-align: center;
     padding-top: 10px;
