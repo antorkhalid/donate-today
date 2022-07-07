@@ -98,9 +98,6 @@ body{
     align-items: center;
     justify-content: center;
 }
-.food-icon{
-
-}
 .donation-plan-section{
     display: flex;
     padding: 300px 300px;
@@ -108,30 +105,90 @@ body{
     margin-top: 0;
 
 }
-#food-for-family{
+.donation-plan-section-box{
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align:left;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+#food-for-family-box-color{
     background-color: rgb(250, 233, 179);
-    margin-right: 10px;
-    margin-left: 10px;
-    text-align:left;
-    padding-left: 15px;
-    padding-top: 15px;
+    cursor: pointer;
 }
-#shelter-for-family{
-    background-color: rgb(202, 253, 253);
-    margin-right: 10px;
-    margin-left: 10px;
-    text-align:left;
-    padding-left: 15px;
-    padding-top: 15px;
+#shelter-for-family-box-color{
+    background-color: rgb(199, 255, 236);
+    cursor: pointer;
 }
-#treatment-for-patient{
-    background-color: rgb(220, 255, 185);
-    margin-right: 10px;
-    margin-left: 10px;
-    text-align:left;
-    padding-left: 15px;
-    padding-top: 15px;
+#treatment-for-patient-box-color{
+    background-color: rgb(160, 160, 255);
+    cursor: pointer;
 }
 #shelter-for-family-h2{
     padding-top: 13px;
+}
+
+#photo-gallery{
+    text-align: center;
+}
+#photo-gallery-text{
+    font-size: 50px;
+}
+#photo-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    padding-bottom: 50px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom:100px;
+}
+#Photo-detail{
+    box-shadow: 20px 20px 20px gray;
+}
+.photo-arrow{
+    cursor: pointer;
+}
+#get-updates-menu{
+    text-align: center;
+}
+.get-updates{
+    font-size: 35px;
+}
+#email-subscribe-section{
+    background-color: antiquewhite;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 50px 50px;
+    margin-bottom: 200px;
+}
+#email-subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#email-input{
+    background-color: silver;
+    padding: 10px 10px 10px 10px;
+    border: 0;
+}
+#subscribe-input{
+    background-color: rgb(168, 44, 44);
+    padding: 10px 40px 10px 40px;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+#footer{
+    background-color: rgb(255, 112, 112);
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-head{
+    font-size: 30px;
 }
